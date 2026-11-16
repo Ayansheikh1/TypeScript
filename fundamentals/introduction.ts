@@ -27,6 +27,6 @@ console.log(uName,number);
 
 let count:number = 24;
 
-count = "Twenty Four"; //developement time error
+//count = "Twenty Four"; //developement time error
 
 console.log(count);

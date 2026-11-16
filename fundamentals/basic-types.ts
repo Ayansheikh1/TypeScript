@@ -52,6 +52,7 @@ let user:{
     age:24,
     email:"ayan123@ex.com",
     skills:["React","TypeScript","Node.js"],
+    isLoggedIn:true,
     profileImage: null
 }
 

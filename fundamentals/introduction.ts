@@ -16,4 +16,17 @@ function add(a:number,b:number){
     return a+b;
 }
 
+let uName = "ayan";
+let number =7
+
 console.log(add(5,9));
+console.log(uName,number);
+
+//Example produce errors
+
+
+let count:number = 24;
+
+count = "Twenty Four"; //developement time error
+
+console.log(count);

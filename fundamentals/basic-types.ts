@@ -20,15 +20,7 @@ let skills:string[] =[
 let prices:number[] = [50,30,678];
 
 
-let user:{
-    myName:string;
-    id:number;
-    isActive:boolean;
-} = {
-    myName :"ayan",
-    id : 24,
-    isActive :true
-};
+
 
 let var1:string | null = null;
 
@@ -42,4 +34,26 @@ if(typeof unknownVariable === "string"){
 
 console.log(myName,myAge,skills,prices,var1)
 
+
+
+
+
+//user object
+
+let user:{
+    name:string;
+    age:number;
+    email:string;
+    skills:string[];
+    isLoggedIn:boolean;
+    profileImage: string | null;
+} = {
+    name:"ayan",
+    age:24,
+    email:"ayan123@ex.com",
+    skills:["React","TypeScript","Node.js"],
+    profileImage: null
+}
+
 console.log(user);
+
